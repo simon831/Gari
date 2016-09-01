@@ -14,6 +14,7 @@ namespace Gari.Controllers
         public IActionResult Index()
         {
             var today = DateTime.Now;
+            var today2 = DateTime.Now;
             return View();
         }
     }
