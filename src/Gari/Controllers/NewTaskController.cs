@@ -13,8 +13,8 @@ namespace Gari.Controllers
         // GET: /<controller>/
         public IActionResult Index()
         {
+            // this is both changes.
             var today = DateTime.Now;
-
             return View();
         }
     }
